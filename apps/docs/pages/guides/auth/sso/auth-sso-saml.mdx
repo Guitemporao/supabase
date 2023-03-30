@@ -339,7 +339,7 @@ Please refer to the relevant documentation for each cloud-based identity provide
 
 ### How do I use SAML in local development?
 
-Unfortunately using SAML in when developing on your machine is pretty difficult. This is a security limitation by identity providers which do not allow setting the SAML Assertion Consumer Service URL to non-HTTPS URLs, or they completely disallow the use of `localhost` in such settings.
+Unfortunately, it is difficult to use SAML when developing on your machine. This is a security limitation by identity providers which do not allow setting the SAML Assertion Consumer Service URL to non-HTTPS URLs, or they completely disallow the use of `localhost` in such settings.
 
 You could get around these limitations by exposing your local Supabase stack to the internet and placing it behind a HTTPS server. Alternatively, you could use a locally hosted SAML 2.0 identity provider that will allow you to use insecure URLs.
 
