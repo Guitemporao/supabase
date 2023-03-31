@@ -65,7 +65,7 @@ Below is information about your project's SAML 2.0 configuration which you can s
 
 Note that SLO (Single Logout) is not supported at this time with Supabase Auth as it is a rarely supported feature by identity providers. However, the URL is registered and advertised for when this does become available.
 
-Append `?download=true` to the Metadata URL to get a downloadable Metadata XML file. It's important to use the download form with identity providers that require a file!
+Append `?download=true` to the Metadata URL to download the Metadata XML file. This is useful in cases where the identity provider requires a file.
 
 Alternatively, you can use the `supabase sso info --project-ref <your-project>` command to get setup information for your project.
 
